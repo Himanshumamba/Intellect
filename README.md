@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
-1-In the project directory, you can run:  git clone https://github.com/Himanshumamba/intellect/.git
+1-In the project directory, you can run:  git clone https://github.com/Himanshumamba/intellect.git
 
 2-cd emoji-widget
 
