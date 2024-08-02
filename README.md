@@ -2,9 +2,20 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+1-In the project directory, you can run:  git clone https://github.com/Himanshumamba/intellect/.git
+2-cd emoji-widget
+3-install the latest  npm (Node  Package Manager)
+4-npm install
+5-npm  start 
+
+### `npm test`
+
+npm test for test case
+
+### `Architecture Overview`
+overview   file
+
 
 ### `npm start`
 
