@@ -1,10 +1,9 @@
 import { act } from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
-import EmojiRatingWidget from '../Emoji/EmojiRatingWidget'; // Adjust the import path if needed
+import EmojiRatingWidget from '../Emoji/EmojiRatingWidget'; 
 import { BrowserRouter as Router } from 'react-router-dom';
 
-// Mock the alert function and useNavigate
 global.alert = jest.fn();
 const mockNavigate = jest.fn();
 
