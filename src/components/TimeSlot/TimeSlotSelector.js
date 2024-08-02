@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import slotsData from '../../data/data.json'; // Ensure this path points to your JSON file
+import slotsData from '../../data/data.json'; //JSON file
 import './TimeSlotSelector.css';
 
 const TimeSlotSelector = () => {
