@@ -1,0 +1,100 @@
+.time-slot-selector {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+
+  padding:  0 20px;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.arrow-button {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 35px;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+  z-index: 1;
+}
+
+.arrow-button:hover {
+  background-color: #ddd;
+}
+.session-duration {
+  color: #6c757d;
+  font-size: 14px;
+}
+.date-slider {
+  display: flex;
+  overflow-x: hidden; 
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  width: 22%; /* Full width container */
+  position: relative;
+}
+.date-box {
+  display: inline-block;
+  padding: 8px 18px;
+  margin: 10px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  min-width: 80px;
+  border: 1px solid #cac5c5;
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+
+
+.date-box.selected {
+  background-color: #EAEFF3;
+  color: rgb(0, 0, 0);
+}
+
+.date-text {
+  display: block;
+  line-height: 1.5;
+}
+
+.slot-selector {
+  margin-top: 5rem;
+}
+.Pickdate {
+  margin: 10px;
+}
+.slots {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 5px;
+}
+
+.slot {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin: 5px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.slot.selected {
+  background-color: #EAEFF3;
+  color: rgb(0, 0, 0);
+}
+
+.selected-slot {
+  margin-top: 20px;
+}
+h3.avail_timeslot {
+  margin: 0;
+}

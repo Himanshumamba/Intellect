@@ -1,0 +1,142 @@
+.emoji-rating-widget-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  max-width: 40%;
+  margin: 10% auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.back-button,
+.close-button {
+  position: absolute;
+  top: 10px;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.back-button {
+  left: 10px;
+}
+
+.close-button {
+  right: 10px;
+  font-size: 1.5rem;
+}
+
+.emoji-rating-widget-card h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.emoji-rating-widget-card p {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.emojis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.emoji-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+  padding: 10px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.emoji-container:hover {
+  transform: scale(1.1);
+  border-color: #007bff;
+}
+
+.emoji {
+  font-size: 2rem;
+}
+
+.label {
+  margin-top: 5px;
+  font-size: 1rem;
+}
+
+.selected {
+  transform: scale(1.1);
+  border-color: #0056b3;
+}
+
+.continue-button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  background-color: #5f778f;
+  width: 100%;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.continue-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.continue-button:hover:not(:disabled) {
+  background-color: #304357;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.continue-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+@media (max-width: 600px) {
+  .emoji-container {
+    margin: 0 5px;
+  }
+
+  .emoji {
+    font-size: 1.5rem;
+  }
+
+  .emoji-rating-widget-card h1 {
+    font-size: 1.5rem;
+  }
+
+  .emoji-rating-widget-card p {
+    font-size: 1rem;
+  }
+
+  .continue-button {
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .emoji-container {
+    margin: 0 5px;
+  }
+
+  .emoji {
+    font-size: 1.5rem;
+  }
+}
